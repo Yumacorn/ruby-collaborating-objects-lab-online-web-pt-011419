@@ -26,4 +26,8 @@ class Artist
     end
     artistSearch
   end
+
+  def print_songs
+
+  end
 end
