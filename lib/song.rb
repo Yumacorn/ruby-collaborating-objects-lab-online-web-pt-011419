@@ -19,7 +19,7 @@ class Song
     artist_name = file_name.split(" - ")[0]
     song_title = file_name.split(" - ")[1]
     if !self.all.include?(song_title)
-      new_song = Song.new(artist_name,song_title)
+      new_song = Song.new(artist_name, song_title)
     end
   end
 
