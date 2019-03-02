@@ -6,10 +6,7 @@ class MP3Importer
   end
 
   def files
-    puts "in files, #{@path} is the path"
-    binding.pry
-
-    Dir.glob(".mp3") do |filename|
+    Dir.chdir(@path).glob("*.mp3") do |filename|
       binding.pry
 
       file = File.new(filename)
