@@ -19,8 +19,7 @@ class MP3Importer
     filename
   end
 
-  puts files
-  binding.pry
+  
 
   def import
 
@@ -28,3 +27,6 @@ class MP3Importer
 
 
 end
+
+puts files
+binding.pry
