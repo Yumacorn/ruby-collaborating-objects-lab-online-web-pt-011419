@@ -6,6 +6,7 @@ class MP3Importer
   end
 
   def files
+    puts "in files, #{@path} is the path"
     Dir[@path]
   end
 
