@@ -8,6 +8,7 @@ class MP3Importer
   def files
     puts "in files, #{@path} is the path"
     Dir[@path]
+    binding.pry
   end
 
   def import
