@@ -23,6 +23,8 @@ class Artist
     artistSearch = self.all.find {|artist| artist.name == name)
     if artistSearch == nil
       artistSearch = Artist.new(name)
+    end
+    artistSearch
   end
 
 
