@@ -8,7 +8,7 @@ class MP3Importer
   def files
     puts "in files, #{@path} is the path"
     Dir[@path].each do |file_name|
-      puts file_name
+      file = File.new
       binding.pry
     end
   end
