@@ -7,6 +7,8 @@ class MP3Importer
 
   def files
     puts "in files, #{@path} is the path"
+    binding.pry
+
     Dir.glob(".mp3") do |filename|
       binding.pry
 
