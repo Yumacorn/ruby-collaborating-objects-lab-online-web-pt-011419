@@ -21,6 +21,7 @@ class Song
       new_song = Song.new(song_title)
     end
     new_song.artist = artist_name
+    new_song
   end
 
 end
