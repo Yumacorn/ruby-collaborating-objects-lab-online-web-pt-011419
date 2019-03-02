@@ -12,6 +12,7 @@ class Song
   def self.all
 
   end
+
   def self.new_by_filename(file_name)
     if !self.all.include?(file_name)
   end
