@@ -13,7 +13,7 @@ class MP3Importer
     Dir.chdir(current_dir)
     filename
   end
-  
+
   def import
 
   end
