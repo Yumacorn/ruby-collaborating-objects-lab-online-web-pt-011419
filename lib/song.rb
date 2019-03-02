@@ -20,7 +20,7 @@ class Song
     if !self.all.include?(song_title)
       new_song = Song.new(song_title)
     end
-    new_song.artist = find_or_create_by_name(artist_name)
+    new_song.artist = Song.find_or_create_by_name(artist_name)
     new_song
   end
 
