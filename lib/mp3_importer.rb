@@ -15,6 +15,7 @@ class MP3Importer
     # end
     # @files
     filename = Dir.glob("*.mp3")
+    Dir.chdir(current_dir)
     filename
   end
 
