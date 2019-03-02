@@ -15,6 +15,7 @@ class Song
   end
 
   def self.new_by_filename(file_name)
+    song_title = file_name.split(" - ")[1]
     if !self.all.include?(file_name)
       new_song = Song.new(file_name)
     end
