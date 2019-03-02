@@ -9,11 +9,7 @@ class MP3Importer
   def files
     current_dir = Dir.getwd
     Dir.chdir(@path)
-    # Dir.glob("*.mp3") do |filename|
-    #   file = File.new(filename)
-    #   @files << file
-    # end
-    # @files
+
     filename = Dir.glob("*.mp3")
     Dir.chdir(current_dir)
     filename
