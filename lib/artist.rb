@@ -11,11 +11,13 @@ class Artist
     @songs << song
   end
 
+  def all
+    @@all
+  end
+  
   def save
     @@all << self
   end
 
-  def all
-    @@all
-  end
+  
 end
