@@ -27,7 +27,3 @@ class MP3Importer
 
 
 end
-
-puts self.files
-
-binding.pry
