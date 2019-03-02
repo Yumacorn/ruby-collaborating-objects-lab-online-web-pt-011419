@@ -28,6 +28,6 @@ class MP3Importer
 
 end
 
-puts files
+puts self.files
 
 binding.pry
