@@ -20,7 +20,7 @@ class Song
     if !self.all.include?(song_title)
       new_song = Song.new(song_title)
     end
-    @artist = artist
+    new_song.artist = artist_name
   end
 
 end
