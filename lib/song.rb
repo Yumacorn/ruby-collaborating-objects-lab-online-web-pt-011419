@@ -15,7 +15,7 @@ class Song
   end
 
   def self.new_by_filename(file_name)
-    if !self.all.include?(file_name) 
+    if !self.all.include?(file_name)
       new_song = Song.new(file_name)
     end
   end
