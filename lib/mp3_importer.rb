@@ -6,7 +6,8 @@ class MP3Importer
   end
 
   def files
-    Dir.chdir(@path).glob("*.mp3") do |filename|
+    Dir.chdir(@path)
+    Dir.glob("*.mp3") do |filename|
       file = File.new(filename)
       @files << file
     end
