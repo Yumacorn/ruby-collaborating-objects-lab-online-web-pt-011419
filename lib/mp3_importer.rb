@@ -10,6 +10,7 @@ class MP3Importer
       file = File.new(filename)
       @files << file
     end
+    @files
   end
 
   def import
