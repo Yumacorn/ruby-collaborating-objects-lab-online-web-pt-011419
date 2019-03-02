@@ -26,6 +26,4 @@ class Artist
     end
     artistSearch
   end
-
-
 end
